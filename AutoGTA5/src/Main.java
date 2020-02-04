@@ -11,7 +11,7 @@ public class Main {
 		JIntellitype.getInstance().addHotKeyListener(new HotkeyListener() {
 			public void onHotKey(int markCode) {
 				if (markCode == GLOBAL_HOT_KEY_1 && isKeydown == false) {
-					new KeyboradTask().start();
+					new KeyboardTask().start();
 					JIntellitype.getInstance().unregisterHotKey(GLOBAL_HOT_KEY_1);
 					isKeydown = true;
 					System.out.println("开始计时");

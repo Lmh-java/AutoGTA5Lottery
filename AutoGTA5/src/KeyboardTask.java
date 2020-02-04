@@ -4,7 +4,7 @@ import java.awt.event.KeyEvent;
 
 import com.melloware.jintellitype.JIntellitype;
 
-public class KeyboradTask extends Thread {
+public class KeyboardTask extends Thread {
 	private Robot robot = null;
 
 	public void run() {
